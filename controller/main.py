@@ -7,4 +7,5 @@ def main_controller(bot, message):
     date = getDate()
     bot.send_message(message.chat.id, date)
   else:
-    bot.send_message(message.chat.id, 'not implemented')
+    pass
+    # bot.send_message(message.chat.id, 'not implemented')
